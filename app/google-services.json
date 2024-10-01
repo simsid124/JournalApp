@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "796881371392",
+    "project_id": "journalkotlin-111",
+    "storage_bucket": "journalkotlin-111.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796881371392:android:a198c52b1157272a7ab3e5",
+        "android_client_info": {
+          "package_name": "com.example.journalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALx_YerSaoAxJjXdAsrt1wHrLiWLN3eLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

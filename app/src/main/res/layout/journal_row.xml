@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="journal"
+            type="com.example.journalapp.Journal" />
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+        <!-- Username and share button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/journal_row_username"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@{journal.username}"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="24sp"/>
+
+            <ImageButton
+                android:id="@+id/journal_row_share_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_share_24"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+
+        <!-- Journal image -->
+        <ImageView
+            android:id="@+id/journal_image_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+
+        <!-- Thoughts text -->
+        <TextView
+            android:id="@+id/journal_thought_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:maxHeight="170dp"
+            android:padding="10dp"
+            android:text="@{journal.thoughts}"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"/>
+
+        <!-- Timestamp -->
+        <TextView
+            android:id="@+id/journal_timestamp_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@{journal.timeAdded.toString()}"
+            android:gravity="end"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    </layout>
