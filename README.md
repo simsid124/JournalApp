@@ -23,3 +23,16 @@ Technology Stack:
 
 TO RUN locally:
 Enter your personal api key at app/google-services.json file
+
+Layout:
+Login(Main Activity):
+![login](https://github.com/user-attachments/assets/8aac8435-5f35-492c-b79c-5dab5dca3a16)
+
+Register(SignUp Activity)
+![register](https://github.com/user-attachments/assets/318c4743-92c9-40d5-acf9-8dc5700536dd)
+
+Add New journal:
+![new_journal](https://github.com/user-attachments/assets/98b328be-4727-4a18-ad7c-aecd56c41229)
+
+Dashboard:
+![dashboard](https://github.com/user-attachments/assets/8b92fa6c-6c3a-4aed-ab97-22ac75c28e79)
