@@ -24,13 +24,14 @@ TO RUN locally:
 Enter your personal api key at app/google-services.json file
 
 Layout:
-Login(Main Activity):
+#### Login Page:
+<img src="screenshots/login.jpg" alt="LoginPage" width="300"/>
 
+#### Register Page:
+<img src="screenshots/register.jpg" alt="RegisterPage" width="300"/>
 
-Register(SignUp Activity)
+#### Dashboard Page:
+<img src="screenshots/dashboard.jpg" alt="DashboardPage" width="300"/>
 
-Add New journal:
-
-
-Dashboard:
-
+#### Add Journal Entry:
+<img src="screenshots/add_journal.jpg" alt="AddEntryPage" width="300"/>
